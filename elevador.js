@@ -15,6 +15,7 @@ if (subirObajar == "subo"){
 
 if (subirObajar == "bajo"){
 	var pisoSeleccionado = prompt("A que piso quieres ir?");
+	const primerPiso = 1;
 	for(var pisoActual = 20; pisoActual >= primerPiso; pisoActual--){
 		console.log("Estas en el piso" + pisoActual)
 	if  (pisoActual == pisoSeleccionado) {
